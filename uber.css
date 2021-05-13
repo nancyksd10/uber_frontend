@@ -1,0 +1,211 @@
+body{
+    font-family: sans-serif;
+    font-weight: 200;
+    margin:0px;
+    padding: 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+nav{
+    background-color: black;
+    margin-bottom: 0%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    
+    
+
+}
+ /* .right{
+    float: right;
+
+} */
+.main{
+    display:grid;
+    grid-template-rows: 55px 900px;
+
+}
+
+
+a{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 14px;
+    color:white;
+
+
+}
+a:hover{
+    border-radius: 30%;
+    background-color: gray;
+   
+}
+
+.navbar a{
+    padding: 20px;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+.nav1, .nav2{
+    display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2em;
+    column-gap: 2em;
+}
+.cover{
+    margin-top:70px;
+    margin-left: 200px;
+    padding: 15px;
+    background-color: white;
+    color:black;
+    width:30%;
+    height:50%;
+}
+.content{
+    font-weight: 500px;
+    
+    
+}
+.cover>.content p{
+    
+    border-color: black;
+    color: white;
+    background-color: black;
+  padding:10px;
+  margin:5px;
+  width:30%;
+  height:20%
+}
+
+ .img{
+     background-image: url(Earner_Home_bg_desktop2x.jpg);
+ }
+ 
+.main2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15em;
+    padding-right: 15em;
+    grid-column-gap:10px;
+    grid-auto-rows: minmax(100px,auto);
+    grid-row-gap:2px;
+}
+.main2 img{
+    max-width: 500px;
+    height: auto;
+}
+.main1{
+    padding: 3em 15em 3em 15em;
+    background-image: url(Light-blue-orange-sunset-sky-patternpictures-5112-1600x1063.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    
+
+}
+.text {
+    margin-left: 15em;
+}
+.nes{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+.main3{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    padding:3em 15em 3em 15em;
+    grid-gap: 2em;
+}
+.main4{
+    display: grid;
+    grid-template-columns: 3fr 3fr ;
+    grid-gap:4em;
+    background-color:#E6E6FA;
+    padding:3em 15em 3em 15em;
+    
+}
+
+.main5{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    padding:3em 15em 3em 15em;
+}
+.inner{
+    display: flex;
+}
+.main1 h4{
+    
+    border-color: black;
+    color: white;
+    background-color: black;
+  padding:10px;
+  margin:5px;
+width:100px;
+}
+.nes1{
+   background-color: #E6E6FA;
+   padding:0.5em 15em 3em 15em;
+    
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    row-gap: 6em;
+}
+.p2 img,.p1 img{
+    max-width:120px;
+    height:120px;
+}
+
+.p1,.p2{
+    display:flex;
+    border-color:white;
+    color:black;
+    background-color: white;
+    padding:10px;
+width:90%;
+height:90%;}
+footer{
+    background-color: black;
+    color: white;}
+
+.wrap1{
+    display: grid;
+    grid-template-columns: 2fr,1fr;
+    padding-left: 13em;
+    padding-bottom: 3em;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:1em;
+    
+    padding:2em 3em 2em 13em;
+}
+.wrap2{
+    display:grid;
+   grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.5fr 15fr 3fr 3fr;
+     padding:2em 3em 2em 13em;
+    grid-gap: 3em;
+}
+
+.wrap3{
+    display: flex;
+   
+justify-content:space-between;
+   padding:2em 5em 2em 15em;
+   opacity: 30%;
+   font-size: smaller;
+}
+
+
